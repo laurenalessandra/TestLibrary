@@ -79,7 +79,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://localhost:8081/artifactory/api/pods/cocoapods-local"}
+  spec.source = { :git => "https://github.com/laurenalessandra/TestLibrary.git", 
+             :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
